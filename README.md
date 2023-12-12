@@ -10,6 +10,9 @@
   Also that's how it's structured:
 </div>
 
+- 📁**Test-Codes** *⚠️Note: All the codes in this folder are just to test my coding skills.*
+  - 📁 **Name-of-the-Programming-Language**
+       - 📄 name_of_the_task
 - 📁**Name-of-the-Course**
   - 📁Labs-And-Homeworks
     - 📁**Lecture-name**
