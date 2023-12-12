@@ -33,4 +33,8 @@ In 'Certificates' you can find all courses I have finished. As you can see they 
         <td>Programming Basics with Python</td>
         <td align='center'><a href="https://softuni.bg/certificates/details/182590/579852f2">Link</a></td>
     </tr>
+    <tr> 
+        <td>Programming Fundamentals with Python</td>
+        <td align='center'><a href="https://softuni.bg/certificates/details/197574/4550948a">Link</a></td>
+    </tr>
 </table>
