@@ -6,18 +6,6 @@
   <h1> About </h1>
   My activities in Software University are archived in this repository. Codes have been submitted <a href="https://judge.softuni.bg/">here</a></td>.
 </div>
-<div align="center">
-  Also that's how it's structured:
-</div>
-
-- 📁**Name-of-the-Course**
-  - 📁Labs-And-Homeworks
-    - 📁**Lecture-name**
-       - 📄 name_of_the_task
-  - 📁More-Exercises
-       - 📄 name_of_the_task
-  - 📁**Type-of-the-Exam**-``day-month-year``
-       - 📄 name_of_the_task
 
 <div align='center'>
 
