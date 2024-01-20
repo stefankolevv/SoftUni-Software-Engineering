@@ -1,0 +1,54 @@
+body {
+    /*It's irrevelant will it be an image or color*/
+    background-image: url('https://images.unsplash.com/photo-1614851099507-f1a93001d984?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+}
+
+h1 {
+    /*Basic stuff*/
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+    /*Managing the position*/
+    position: relative;
+    top: 225px;
+    /*Adding a text shadow for a better view (of course it's not important)*/
+    text-shadow: 0 0 7px #111;
+}
+
+p {
+    color: white;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    position: relative;
+    top: 220px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    /*Using transition for smoother effect when the text is hovered (can be changed but personally I prefer 0.3s)*/
+    transition: 0,3s;
+}
+
+a:hover {
+    /*The text color in hover*/
+    color: rgb(255, 194, 194);
+}
+
+.logo {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 45px;
+    text-transform: uppercase;
+    position: relative;
+    top: 450px;
+    left: 730px;
+    transition: 0.3s;
+    text-shadow: 0 0 11px #111;
+}
+
+.logo:hover {
+    color: rgb(127, 255, 212);
+}
