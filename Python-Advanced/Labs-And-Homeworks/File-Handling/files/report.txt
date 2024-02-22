@@ -1,0 +1,15 @@
+.css
+- - - style.css
+.html
+- - - index.html
+.js
+- - - index.js
+.py
+- - - py_the_best.py
+.ts
+- - - making_it_more_complex.ts
+.txt
+- - - file.txt
+- - - output.txt
+- - - report.txt
+- - - text.txt
