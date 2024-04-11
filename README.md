@@ -21,5 +21,9 @@
         <td>Programming Fundamentals</td>
         <td align='center'><a href="https://softuni.bg/certificates/details/197574/4550948a">Link</a></td>
     </tr>
+     <tr> 
+        <td>Python Advanced</td>
+        <td align='center'><a href="https://softuni.bg/certificates/details/212035/a20e18f2">Link</a></td>
+    </tr>
 </table>
 </details>
