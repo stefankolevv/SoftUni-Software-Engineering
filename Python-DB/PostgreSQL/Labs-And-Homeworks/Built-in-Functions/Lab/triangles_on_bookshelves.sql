@@ -1,0 +1,4 @@
+SELECT
+    id,
+    side * height / 2 AS area
+FROM triangles
