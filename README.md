@@ -42,4 +42,7 @@
         <td>February 2024</td>
         <td align='center'><a href="https://softuni.bg/certificates/details/213238/6ec796ab">View</a></td>
     </tr>
+        <td>PostgreSQL</td>
+        <td>May 2024</td>
+        <td align='center'><a href="https://softuni.bg/certificates/details/217081/35220066">View</a></td>
 </table>
