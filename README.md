@@ -10,12 +10,12 @@
 
 <details> <summary> <b>Python</b> </summary>
   <table> 
-        <th>Course name</th>
-        <th>Certificate link</th>
+        <th>Course</th>
+        <th>Link</th>
     </tr>
     <tr> 
         <td>Programming Basics</td>
-        <td align='center'><a href="https://softuni.bg/certificates/details/182590/579852f2">Link</a></td>
+        <td align='center'><a href="https://softuni.bg/certificates/details/182590/579852f2"">Link</a></td>
     </tr>
     <tr> 
         <td>Programming Fundamentals</td>
@@ -24,6 +24,10 @@
      <tr> 
         <td>Python Advanced</td>
         <td align='center'><a href="https://softuni.bg/certificates/details/212035/a20e18f2">Link</a></td>
+    </tr>
+    <tr> 
+        <td>Python OOP</td>
+        <td align='center'><a href="https://softuni.bg/certificates/details/213238/6ec796ab">Link</a></td>
     </tr>
 </table>
 </details>
