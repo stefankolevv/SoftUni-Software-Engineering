@@ -1,0 +1,29 @@
+div {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+    font-weight: bold;
+}
+
+#highlight {
+    background-color: #fb7f7f;
+}
+
+.second-item {
+    color: #fd1e1e;
+}
+
+.third-link {
+    color: #00c800;
+}
+
+.sibling {
+    color: #0099ff;
+}

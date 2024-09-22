@@ -1,0 +1,14 @@
+ul {
+    display: flex;
+    list-style-type: square;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin-right: 15px;
+}
+
+img {
+    width: 200px;
+}
