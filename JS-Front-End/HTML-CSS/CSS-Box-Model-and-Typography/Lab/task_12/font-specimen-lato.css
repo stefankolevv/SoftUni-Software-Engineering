@@ -1,0 +1,53 @@
+html {
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: 'Lato', sans-serif;
+}
+
+body, h1, h2, h3, h4, h5, h6 {
+    font-family: inherit;
+    line-height: 1.2;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
+
+p, ul, ol {
+    padding-bottom: 1.5rem;
+}
+
+ul, ol {
+    padding-left: 1.5rem;
+}
+
+table {
+    border: 1px solid lightgray;
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+th {
+    text-align: left;
+    background-color: lightgray;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(240, 240, 240);
+}
+
+td {
+    border: 1px solid lightgray;
+}
+
+blockquote {
+    border-left: 5px solid lightgray;
+    padding: 15px;
+}
+
+blockquote p {
+    font-style: italic;
+    margin: 3px;
+}
+
+.author {
+    text-align: right;
+}

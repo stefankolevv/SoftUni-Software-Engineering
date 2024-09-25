@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+details > summary {
+    list-style-type: none;
+}
+
+details > summary::-webkit-details-marker {
+    display: none;
+}
+
+details > summary::before {
+    content: '> ';
+}
+
+details[open] > summary::before {
+    content: 'v ';
+}
+
+.accordion-container {
+    width: 80%;
+    margin: 30px auto;
+}
+.accordion-container details {
+    border: 1px solid #c0c0c0;
+    padding: 20px;
+    border-bottom: 0;
+}
+.accordion-container details:last-child {
+    border-bottom: 1px solid #c0c0c0;
+}
+.accordion-container details summary {
+    font-weight: 700;
+    cursor: pointer;
+}
