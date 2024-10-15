@@ -1,0 +1,37 @@
+body {
+    padding: 2em;
+    font: 14px/1.5 Lato, sans-serif
+}
+
+p {
+    padding-bottom: 1.5em;
+}
+
+body::before {
+    background-color: #369;
+    color: #fff;
+    padding: 1em 1.5em;
+    margin-bottom: 2em;
+    border-radius: 0.3em;
+}
+
+@media (min-width: 800px) and (max-width: 1200px) {
+    body::before {
+        display: block;
+        content: 'The viewport width is larger than 800px and smaller than 1200px';
+    }
+}
+
+@media not (max-width: 1200px) {
+    body::before {
+        display: block;
+        content: 'The viewport width is larger than 1200px';
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    body::before {
+        display: block;
+        content: 'The device is using a screen and the viewport width is larger than 800px';
+    }
+}

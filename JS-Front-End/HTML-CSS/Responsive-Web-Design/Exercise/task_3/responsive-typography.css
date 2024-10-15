@@ -1,0 +1,53 @@
+body {
+    background: #EEE;
+    font-family: 'Lato', sans-serif;
+}
+
+table {
+    border: 1px solid lightgray;
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+th {
+    text-align: left;
+    background-color: lightgray;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(240, 240, 240);
+}
+
+td {
+    border: 1px solid lightgray;
+}
+
+blockquote {
+    border-left: 5px solid lightgray;
+    padding: 15px;
+}
+
+blockquote p {
+    font-style: italic;
+    margin: 3px;
+}
+
+.site {
+    max-width: 1200px;
+    padding: 25px;
+    margin: 30px auto;
+    background: #FFF;
+    border-radius: 5px;
+    box-shadow: gray 0 0px 8px;
+    overflow: hidden;
+}
+
+.author {
+    text-align: right;
+}
+
+@media (max-width: 800px) {
+    .site {
+        max-width: 700px;
+    }
+}

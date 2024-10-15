@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>01. Media Types</title>
+    <link rel="stylesheet" href="media-types.css">
+</head>
+<body>
+    <h1>Media Types</h1>
+    
+    <p>https://developer.mozilla.org/en-US/docs/Web/CSS/@media#media_types</p>
+       
+    <p>Media types describe the general category of a device. Except when using the not or only logical operators, the media type is optional and the all type is implied.</p>
+    
+    <h2>all</h2>
+    
+    <p>Suitable for all devices</p>
+    
+    <pre>@media all {
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+        
+    body {
+        padding: 2em;
+        font: 14px/1.5 Lato, sans-serif;
+    }    
+        
+    p {
+        padding-bottom: 1.5em;
+    }
+}</pre>
+    
+    <h2>print</h2>
+    
+    <p>Intended for paged material and documents viewed on a screen in print preview mode</p>
+    
+    <pre>@media print {
+    body::before {
+        display: block;
+        content: 'The page is using a print preview or it was printed';
+    }
+}</pre>
+    
+    <h2>screen</h2>
+    
+    <p>Intended primarily for screens</p>
+    
+    <pre>@media screen {
+    body::before {
+        display: block;
+        content: 'The page is being shown on a screen';
+    }
+}</pre>
+</body>
+</html>
