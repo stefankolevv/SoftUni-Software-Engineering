@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 3px solid green;
+}
+
+.content-box {
+    margin: 20px 0;
+    padding: 30px;
+    border: 3px solid blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;     
+    min-height: 200px;       
+}
+
+.content-box h3, .content-box p {
+    text-align: left; 
+    max-width: 68%; 
+}

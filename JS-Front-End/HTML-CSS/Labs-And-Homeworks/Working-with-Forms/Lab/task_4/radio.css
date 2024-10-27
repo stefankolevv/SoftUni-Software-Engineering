@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Lato', sans-serif;
+}
+
+body, input, textarea, select, option {
+    font-style: inherit;
+}
+
+body {
+    padding: 2em;
+}
+
+h2 {
+    margin-top: 2em;
+}
+
+pre {
+    display: block;
+    padding: 2em 2em 0.5em 2em;
+    border-radius: 0.3em;
+    margin: 2em 0;
+    border: 1px solid #ccc;
+    overflow: auto;
+    height: 270px;
+    background-color: #EEE;
+}
+
+.radio {
+    height: 35px;
+    border: 2px solid #ccc;
+    transition: 0.5s;
+}
+
+.radio:hover {
+    border-color: #090;
+}

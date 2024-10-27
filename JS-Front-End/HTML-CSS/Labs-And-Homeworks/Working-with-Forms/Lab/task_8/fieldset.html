@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>08. Fieldset</title>
+    <link rel="stylesheet" href="fieldset.css">
+</head>
+<body>
+    <h1>Fieldset</h1>
+
+    <p>The fieldset element is used to group several controls as well as labels within a web form.</p>
+
+    <pre>&lt;fieldset&gt;
+    &lt;legend>Login&lt;/legend&gt;
+        
+    &lt;p class="field"&gt;
+    &lt;label for="username"&gt;Username&lt;/label&gt;
+    &lt;input type="text" name="username" id="username"&gt;
+    &lt;/p&gt;
+        
+    &lt;p class="field"&gt;
+    &lt;label for="password"&gt;Username&lt;/label&gt;
+    &lt;input type="password" name="password" id="password"&gt;
+    &lt;/p&gt;
+        
+    &lt;input type="submit" value="Login"&gt;
+        
+&lt;/fieldset&gt;</pre>
+
+    <fieldset>
+        <legend>Login</legend>
+        
+        <p class="field">
+        <label for="username">Username</label>
+        <input type="text" name="username" id="username">
+        </p>
+        
+        <p class="field">
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password">
+        </p>
+        
+        <input type="submit" value="Login">
+        
+    </fieldset>
+</body>
+</html>

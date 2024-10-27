@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #EEE;
+    font-family: 'Lato', sans-serif;
+}
+
+.loginForm {
+    background: #FFF;
+    box-shadow: 0 0 1em 0 rgb(0,0,0,0.2);
+    max-width: 450px;
+    height: 650px;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+fieldset {
+    border: none;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+legend {
+    font-weight: 800;
+    padding-bottom: 15px;
+    margin-bottom: 45px;
+}
+
+.field {
+    position: relative;
+}
+
+.field label {
+    position: absolute;
+    left: 10px;
+    top: 12px;
+    color: silver;
+    transition: 0.2s;
+}
+
+.loginForm input {
+    border: none;
+    border-bottom: 2px solid silver;
+    padding: 5px 5px 5px 0;
+    height: 45px;
+    width: 100%;
+}
+
+.loginForm input[type="submit"] {
+    border: 0;
+    background: #EEE;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    position: relative;
+    margin-top: 40px;
+}
+
+em {
+    font-size: 12px;
+    padding: 2px;
+    opacity: 0.7;
+}
+
+.loginForm textarea {
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid silver;
+    font-family: 'Lato', sans-serif;
+}
+
+.loginForm input::placeholder {
+    color: black;
+}
+
+.loginForm textarea::placeholder {
+    color: black;
+}
