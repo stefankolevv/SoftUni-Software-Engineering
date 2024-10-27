@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="relative-selectors.css">
+    <title>05. Relative Selectors</title>
+</head>
+<body>
+    <div>
+        <section>
+            <p>This paragraph is a direct descendant of a section.</p>
+        </section>
+
+        <article>
+            <section>
+                <p>This paragraph is within an article inside a section.</p>
+            </section>
+        </article>
+        
+        <p>This paragraph is within a highlighted article.</p>
+        
+        <p id="highlight">This paragraph is in an article following a highlighted article.</p>
+        
+        <ul>
+            <li>List Item 1</li>
+            <li class="second-item">List Item 2</li>
+            <li>List Item 3</li>
+            <li>List Item 4 with links:</li>
+            <ul>
+                <li><a href="#">Link 1</a></li>
+                <li><a href="#">Link 2</a></li>
+                <li><a class="third-link" href="#">Link 3</a></li>
+            </ul>
+        </ul>
+        
+        <h2>Siblings following this h2 are styled</h2>
+        
+        <p class="sibling">A sibling paragraph.</p>
+        
+        <p class="sibling">Another sibling paragraph.</p>
+    </div>
+</body>
+</html>
