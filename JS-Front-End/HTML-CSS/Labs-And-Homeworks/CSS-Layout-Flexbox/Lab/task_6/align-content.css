@@ -1,0 +1,39 @@
+.flex-container {
+    display: flex;
+    width: 400px;
+    height: 200px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 1em;
+    border: 3px solid blue;
+}
+
+.flex-container .flex-item {
+    border: 2px solid black;
+    padding: 20px;
+    background: #eee;
+}
+
+.direction-row {
+    flex-direction: row;
+}
+
+.align-content-flex-start {
+    align-content: flex-start;
+}
+
+.align-content-center {
+    align-content: center;
+}
+
+.align-content-flex-end {
+    align-content: flex-end;
+}
+
+.align-content-space-between {
+    align-content: space-between;
+}
+
+.align-content-space-around {
+    align-content: space-around;
+}
