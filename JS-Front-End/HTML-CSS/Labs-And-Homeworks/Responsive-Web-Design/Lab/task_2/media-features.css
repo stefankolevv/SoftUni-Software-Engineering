@@ -1,0 +1,44 @@
+body {
+    padding: 2em;
+    font: 14px/1.5 Lato, sans-serif
+}
+
+p {
+    padding-bottom: 1.5em;
+}
+
+body::before {
+    background-color: #369;
+    color: #fff;
+    padding: 1em 1.5em;
+    margin-bottom: 2em;
+    border-radius: 0.3em;
+}
+
+@media (hover: none) {
+    body::before {
+        display: block;
+        content: 'This device doesn't support hover';
+    }
+}
+
+@media (orientation: landscape) {
+    body::before {
+        display: block;
+        content: 'The device is in landscape orientation';
+    }
+}
+
+@media (width: 600px) {
+    body::before {
+        display: block;
+        content: 'The viewport width is 600px';
+    }
+}
+
+@media (height: 800px) {
+    body::before {
+        display: block;
+        content: 'The viewport height is 800px';
+    }
+}    
