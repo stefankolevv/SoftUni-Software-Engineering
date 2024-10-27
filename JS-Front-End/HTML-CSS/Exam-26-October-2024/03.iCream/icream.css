@@ -1,0 +1,97 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap);
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-image: url('images/carousel-1.jpg'); /* Change this to your ice cream background image */
+    background-size: cover;
+}
+
+.pink-background {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: pink;
+    list-style-type: none;
+    padding: 10px 0;
+    margin: 0;
+}
+
+.pink-background li {
+    color: white;
+    display: inline-block;
+    justify-content: center;
+}
+
+span {
+    color: white;
+}
+
+.white-background {
+    background-color: white;
+    list-style-type: none;
+    padding: 10px 0;
+    margin: 15px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.white-background li {
+    margin: 0 15px;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 10px 0;
+}
+
+p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.about, .features {
+    padding: 20px;
+    background-color: #add8e6; 
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 5px solid #fff; 
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer h3, footer h4 {
+    margin: 10px 0;
+}
+
+.footer-brand {
+    color: #007BFF; 
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
