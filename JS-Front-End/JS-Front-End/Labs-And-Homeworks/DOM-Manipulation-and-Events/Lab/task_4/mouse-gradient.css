@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --accent-color: #234465;
+    --accent-color-text: #FFF;
+    --border-radius: 0.3em;
+}
+
+html {
+    font: 16px/1.5 "Lato", sans-serif;
+
+    @media (width < 900px) {
+        font-size: 14px;
+    }
+
+    @media (width < 600px) {
+        font-size: 12px;
+    }
+
+}
+
+body, input, button {
+    font: inherit
+}
+
+body {
+    font-size: 1em;
+    padding: 2em;
+    background: #eee;
+}
+
+a {
+    color: var(--accent-color);
+}
+
+:is(h1, h2, h3, h4, h5, h6) {
+    margin-bottom: 0.5em;
+}
+
+p, ul, ol {
+    padding-bottom: 1.5em;
+}
+
+ul, ol {
+    list-style-position: inside;
+}
+
+#gradient-box {
+    width: 300px;
+    border: 2px solid lightgrey;
+}
+
+#gradient-box:hover {
+    border: 2px solid black;
+}
+
+#gradient {
+    height: 30px;
+    color: white;
+    text-shadow: 1px 1px 10px black;
+    text-align: center;
+    line-height: 30px;
+    background: linear-gradient(to right, black, white);
+    cursor: crosshair;
+}

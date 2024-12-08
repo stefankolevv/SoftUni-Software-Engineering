@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --accent-color: #234465;
+    --accent-color-text: #FFF;
+    --border-radius: 0.3em;
+}
+
+html {
+    font: 16px/1.5 "Lato", sans-serif;
+
+    @media (width < 900px) {
+        font-size: 14px;
+    }
+
+    @media (width < 600px) {
+        font-size: 12px;
+    }
+
+}
+
+body, input, button {
+    font: inherit
+}
+
+body {
+    font-size: 1em;
+    padding: 2em;
+    background: #eee;
+}
+
+a {
+    color: var(--accent-color);
+}
+
+:is(h1, h2, h3, h4, h5, h6) {
+    margin-bottom: 0.5em;
+}
+
+p, ul, ol {
+    padding-bottom: 1.5em;
+}
+
+ul, ol {
+    list-style-position: inside;
+}
+
+input, textarea {
+    display: block;
+    width: 100%;
+    background: #FFF;
+    border: 2px solid var(--accent-color);
+    border-radius: var(--border-radius);
+    padding: 0.5em 0.8em;
+    margin-bottom: 1.5em;
+}
+
+label {
+    font-weight: 900;
+    color: var(--accent-color);
+}
+
+label {
+    font-weight: 900;
+    color: var(--accent-color);
+}
+
+button,
+input[type="button"] {
+    background: var(--accent-color);
+    color: var(--accent-color-text);
+    /* text-transform: uppercase; */
+    font-weight: bold;
+    cursor: pointer;
+    padding: 0.5em 1em;
+    border-radius: 0.3em;
+    border: 2px solid var(--accent-color);
+    transition: all 0.2s ease-in;
+    box-shadow: 0 0 0.5em 0 rgb(0, 0, 0, 0.1);
+
+    &:hover {
+        background: var(--accent-color-text);
+        color: var(--accent-color);
+    }    
+}
+
+.shopping-cart {
+    textarea {
+        margin-top: 2em;
+    }
+}
+
+.column-labels {
+    display: flex;
+    
+    & > label {
+        flex: 0 0 auto;
+        padding: 1em 2em;
+
+        &:nth-child(1) { flex-basis: 165px; }
+        &:nth-child(2) { flex-basis: 65%; }
+        &:nth-child(3) { flex-basis: 110px; }
+        &:nth-child(4) { text-align: right; }
+    }
+}
+
+.product {
+    display: flex;
+    background: #fff;
+    border: 2px solid var(--accent-color);
+    margin: 0.5em 0;
+    border-radius: 0.3em;
+
+    & > div {
+        flex: 1 1 auto;
+        padding: 1em 2em;
+    }
+}
